@@ -10,16 +10,13 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../grails-app">
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/init" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/taglib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/conf" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/i18n" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/views" type="java-resource" />
@@ -50,7 +47,7 @@
     <orderEntry type="library" name="Gradle: org.grails.plugins:scaffolding:3.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:hibernate4:5.0.8" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-ehcache:4.3.11.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.grails.plugins:spring-security-core:3.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.grails.plugins:spring-security-core:3.1.2" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" level="project" />
@@ -100,10 +97,10 @@
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.2.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mozilla:rhino:1.7R4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.6" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.6.6" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web:3.1.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-controllers:3.1.8" level="project" />

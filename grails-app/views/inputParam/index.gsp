@@ -13,11 +13,15 @@
         <meta name="layout" content="main" />
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <link rel="stylesheet" href="/resources/demos/style.css">
-        <g:javascript library='jquery'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/css/bootcards-desktop.min.css">
+
+
+    <g:javascript library='jquery'>
             $(document).ready(function() {
                 $("div.tab-menu>div.list-group>a").click(function(e) {
                     e.preventDefault();
@@ -89,127 +93,65 @@
             </div>
 <hr/>
 
-    <div class="row">
-        <div class=" col-md-6 center-block">
-            <table class="table table">
-                <thead>
-                <tr>
-                    <th colspan="2" class="text-center">Pick a pipeline</th>
 
-
-                </tr>
-                </thead>
-                <tbody>
-
-                <tr>
-
-                    <td><div class="panel panel-chip panel-broad">
-                        <div class="panel-body ">
-
-                            <g:link controller="inputParam" action="chipInput">Genomic region Enrichment</g:link>
-
-                        </div>
-                    </div>
-                    </td>
-                    <td><div class="panel panel-broad">
-                        <div class="panel-body">Gene Expression Enrichment</div>
-                    </div></td>
-
-                </tr>
-                <tr>
-
-                    <td><div class="panel panel-broad">
-                        <div class="panel-body">Combined Enr genomic regions +expression</div>
-                    </div>
-                    </td>
-                    <td><div class="panel panel-broad">
-                        <div class="panel-body">Reverse Enr testing</div>
-                    </div></td>
-
-                </tr>
-                <tr>
-
-                    <td colspan="2" class="text-center"><div class="panel panel-broad"> <div class="panel-body">Peak to gene annotation</div></div></td>
-
-
-
-                </tr>
-                </tbody>
-            </table>
-    </div>
+    <hr class="">
+    <div class=" col-md-6 center-block">
+    <div class="panel panel-default bootcards-summary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Genomic region Enrichment</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#">
+                        <i class="fa fa-3x fa-users"></i>
+                        <h4>Gene Expression Enrichment </h4>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#">
+                        <i class="fa fa-3x fa-building-o"></i>
+                        <h4>Combined Enr genomic regions +expression </h4>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#">
+                        <i class="fa fa-3x fa-clipboard"></i>
+                        <h4>Gene Expression Enrichment </h4>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#">
+                        <i class="fa fa-3x fa-files-o"></i>
+                        <h4>Files <span class="label label-info">65</span></h4>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#">
+                        <i class="fa fa-3x fa-check-square-o"></i>
+                        <h4>Reverse Enr testing</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <small>Built with Bootcards - Summary Card</small>
+        </div>
     </div>
     </div>
 
-    <div class="card-columns">
-        <div class="card">
-            <img class="card-img-top img-fluid" src="..." alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Card title that wraps to a new line</h4>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-        </div>
-        <div class="card p-3">
-            <blockquote class="card-block card-blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer>
-                    <small class="text-muted">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
-        <div class="card">
-            <img class="card-img-top img-fluid" src="..." alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card card-inverse card-primary p-3 text-center">
-            <blockquote class="card-blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                <footer>
-                    <small>
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
-        <div class="card text-center">
-            <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img img-fluid" src="..." alt="Card image">
-        </div>
-        <div class="card p-3 text-right">
-            <blockquote class="card-blockquote">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer>
-                    <small class="text-muted">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
-        <div class="card">
-            <div class="card-block">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
 
 
 
 
 
-            <div class="pagination">
+
+
+
+
+
+
+    <div class="pagination">
                 <g:paginate total="${inputParamCount ?: 0}" />
             </div>
 

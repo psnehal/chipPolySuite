@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chipPolySuite.iml" filepath="$PROJECT_DIR$/.idea/modules/chipPolySuite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chipPolySuite_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/chipPolySuite_integrationTest.iml" group="chipPolySuite" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chipPolySuite_main.iml" filepath="$PROJECT_DIR$/.idea/modules/chipPolySuite_main.iml" group="chipPolySuite" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chipPolySuite_test.iml" filepath="$PROJECT_DIR$/.idea/modules/chipPolySuite_test.iml" group="chipPolySuite" />
       <module fileurl="file://$PROJECT_DIR$/grails-app/grails-app.iml" filepath="$PROJECT_DIR$/grails-app/grails-app.iml" />
