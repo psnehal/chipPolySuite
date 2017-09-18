@@ -1606,15 +1606,31 @@
       <created>1502302807455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1502302807455</updated>
       <workItem from="1502302811069" duration="120000" />
       <workItem from="1502302954604" duration="2195000" />
       <workItem from="1502306518516" duration="17585000" />
+=======
+      <updated>1501009800304</updated>
+      <workItem from="1501009802592" duration="718000" />
+      <workItem from="1501010525106" duration="1350000" />
+      <workItem from="1501085905637" duration="9424000" />
+      <workItem from="1501246629550" duration="5964000" />
+      <workItem from="1501615321434" duration="1098000" />
+      <workItem from="1501770241884" duration="4634000" />
+      <workItem from="1501873915943" duration="187000" />
+      <workItem from="1502206791619" duration="8542000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="19900000" />
+=======
+    <option name="totallyTimeSpent" value="31917000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1225" height="1028" extended-state="6" />

@@ -8,6 +8,9 @@
         GSE Suite
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <asset:stylesheet src="application.css"/>
 
@@ -15,76 +18,52 @@
 </head>
 <body>
 
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
+<div class="navbar navbar-custom navbar-static-top" role="navigation">
+    <div class="container-fluid">
         <div class="navbar-header">
+            <a  class="navbar-left" href="${createLink(uri: '/')}"><img src="${resource(dir: 'images', file: 'GSELogoFinal.png')}" alt="GSE" style="max-height: 250px; max-width: 150px;" /></a>
+        </div>
 
 
-                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-                    <a class="navbar-brand" href="#">GSE</a>
-                </nav>
-            </div>
+        <ul class="nav navbar-nav ">
+            <li>
+                <g:link controller="inputParam" action="index"> <span class="glyphicon glyphicon-home"></span> Home </g:link>
+            </li>
 
+            <li class="dropdown">
+                <g:link controller="inputParam" action="tutorials"><span class="glyphicon glyphicon glyphicon-book"></span> Tutorials</g:link>
+            </li>
+            <li class="dropdown">
+                <g:link controller="inputParam" action="news"><span class="glyphicon glyphicon-list-alt"></span> News</g:link>
 
+            </li>
 
-            <content tag="nav">
-                <li class="dropdown">
-                    <a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
-                </li>
-                <li class="dropdown">
-                    <g:link controller="inputParam" action="datasets">Datasets</g:link>
+            <li class="dropdown">
+                <g:link controller="inputParam" action="contact"><span class="glyphicon glyphicon-envelope"></span> Contact Us</g:link>
 
-                </li>
-                <li class="dropdown">
-                    <g:link controller="inputParam" action="tutorials">Tutorials</g:link>
-                </li>
-                <li class="dropdown">
-                    <g:link controller="inputParam" action="news">News</g:link>
+            </li>
 
-                </li>
-                <li class="dropdown">
-                    <g:link controller="inputParam" action="tutorials">Tutorials</g:link>
-                </li>
-                <li class="dropdown">
-                    <g:link controller="inputParam" action="contact">Contact Us</g:link>
-
-                </li>
-            </content>
+        </ul>
 
         <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
-            </li>
-            <li class="dropdown">
-                <g:link controller="inputParam" action="datasets">Datasets</g:link>
 
-            </li>
-            <li class="dropdown">
-                <g:link controller="inputParam" action="tutorials">Tutorials</g:link>
-            </li>
-            <li class="dropdown">
-                <g:link controller="inputParam" action="news">News</g:link>
-
-            </li>
-            <li class="dropdown">
-                <g:link controller="inputParam" action="tutorials">Tutorials</g:link>
-            </li>
-            <li class="dropdown">
-                <g:link controller="inputParam" action="contact">Contact Us</g:link>
-
-            </li>
+            <li><g:link controller="inputParam" action="contact"><span class="glyphicon glyphicon-user"></span> Sign Up</g:link></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
-        </div>
+    <br/>
+    <br/>
 
-        <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
 
-            <ul class="nav navbar-nav navbar-right">
-                <g:pageProperty name="page.nav" />
-            </ul>
 
-        </div>
+
+
     </div>
+
 </div>
+
+
+
+
 
 <div class="nav" role="navigation">
 
@@ -95,7 +74,7 @@
 <div class="footer" role="contentinfo"></div>
 
 <div id="spinner" class="spinner" style="display:none;">
-    <g:message code="spinner.alt" default="Loading&hellip;"/>
+
 </div>
 
 <asset:javascript src="application.js"/>
